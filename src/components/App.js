@@ -5,7 +5,6 @@ import ImageGallery from "./ImageGallery/ImageGallery";
 import LoadMore from "./LoadMore/LoadMore";
 import Loader from "./Loader/Loader";
 import Modal from "./Modal/Modal";
-import css from "./App.module.css";
 
 class App extends Component {
   state = {

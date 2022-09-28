@@ -19,7 +19,7 @@ function ImageGallery({ images, openModal }) {
   );
 }
 
-ImageGallery.prototype = {
+ImageGallery.propTypes = {
   images: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number.isRequired,

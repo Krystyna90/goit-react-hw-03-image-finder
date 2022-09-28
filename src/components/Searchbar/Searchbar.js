@@ -22,7 +22,6 @@ export default class Searchbar extends Component {
       return alert("Insert some name");
     }
     this.props.onSubmit(this.state.imageName);
-    this.setState({ imageName: "" });
   };
 
   render() {
